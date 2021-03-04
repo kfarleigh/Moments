@@ -1,9 +1,12 @@
 # Moments
 This repository contains scripts for 3D and 4D demographic models using the program Moments, models were published in [Farleigh et al., 2021](). See the Citing this repository subheading for the references in this repository. 
+
 ## Purpose
 Perform demographic model optimization and comparisons with the python package [moments](https://bitbucket.org/simongravel/moments/src/master/). 
 ## Overview
-In the main repoitory there are two scripts (moments_Run_Optimizations.py & Optimize_Function.py) that must be in the working directory to run properly. These scripts were developed by [Dr. Daniel Portik](https://github.com/dportik/moments_pipeline) and have been modified for our purposes. The optimization script will perform the optimization routine proposed by [Portik et al., 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14266). The routine was originally written for [dadi](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000695) but will also work for moments. 
+In the main repository there are two scripts (moments_Run_Optimizations.py & Optimize_Function.py) that must be in the working directory to run properly. These scripts were developed by [Dr. Daniel Portik](https://github.com/dportik/moments_pipeline) and have been modified for our purposes. The optimization script will perform the optimization routine proposed by [Portik et al., 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14266). The routine was originally written for [dadi](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000695) but will also work for moments. 
+
+The 3D and 4D subdirectories contain the python scripts for the respective sets of models, there are also conceptual figures that demonstrate what each model does in these subdirectories.
 ### What you'll need
 1. A site frequency spectrum (SFS), this can be created in moments or with a program like [easySFS](https://github.com/isaacovercast/easySFS)
 2. The moments_Run_Optimizations.py and Optimize_Function.py scripts, they must be in the same directory as your SFS and Model.py script. 
@@ -47,6 +50,8 @@ Optimize_Functions.Optimize_Routine(fs, prefix, "sim_split_no_mig", Models_3D.si
 # Summarize the outputn (after leaving python)
 python ./Summarize_Outputs.py ./
 ```
+## Contact
+If you have any questions or issues with this repository please post it on the issues page of this repository or email me at keakafarleigh@gmail.com. Also, if you would like to run moments but do not see the models that you want to run here feel free to reach out. 
 
 ## Citing this repository
 If you use any of the resources from this repository please consider citing the following publications. The models were developed as a part of [Farleigh et al., 2021](), the optimization routine was developed by [Dr. Daniel Portik](https://github.com/dportik/moments_pipeline) and was originally published in [2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14266). 
