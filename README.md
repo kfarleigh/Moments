@@ -13,7 +13,7 @@ In the main repoitory there are two scripts (moments_Run_Optimizations.py & Opti
 3. Run moments
 4. Inspect your results 
 ## Citing this repository
-If you use any of the resources from this repository please consider citing the following publications. The models were developed as a part of [Farleigh et al., 2021](), the optimization routines were developed by [Dr. Daniel Portik](https://github.com/dportik/moments_pipeline) and were originally published in [2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14266). 
+If you use any of the resources from this repository please consider citing the following publications. The models were developed as a part of [Farleigh et al., 2021](), the optimization routine was developed by [Dr. Daniel Portik](https://github.com/dportik/moments_pipeline) and was originally published in [2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14266). 
 
 * Farleigh et al., citation
 * Gutenkunst, R.N., Hernandez, R.D., Williamson, S.H., and C.D. Bustamante. 2009. Inferring the joint demographic history of multiple populations from multidimensional SNP frequency data. PLoS Genetics 5: e1000695.
